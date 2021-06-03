@@ -1,1 +1,1 @@
-lofi drum kit. 
+lofi drum kit made with JavaScript 
