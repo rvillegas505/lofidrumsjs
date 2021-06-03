@@ -1,0 +1,42 @@
+html {
+    background-color: #BAE8BC;
+}
+
+.keys {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.key {
+    height: 5rem;
+    width: 5rem;
+    border: 1px solid;
+    border-color: black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.kick {
+    background-color: #AF9DEB;
+}
+
+.snare {
+    background-color: #BAE8BC;
+}
+
+.hihat {
+    background-color: #E8C3A2;
+}
+
+.textkey {
+    text-align: center;
+}
+
+@media (max-width:300px) {
+    .keys {
+        flex-direction: column;
+    }
+}
